@@ -6,6 +6,7 @@ CREATE TABLE burgers
 (
 id int NOT NULL AUTO_INCREMENT,
 burger_name varchar(30) NOT NULL,
-devoured BOOLEAN,
+devoured BOOLEAN NOT NULL,
+date TIMESTAMP NOT NULL,
 primary key(id)
 );
